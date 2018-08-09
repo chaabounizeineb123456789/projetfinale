@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f50057 ;
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {t
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   z-index:999;
+}
+body{ 
+background-image:  url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a5e4cac8bcaf69ffaf5d3b1c2b063e4&auto=format&fit=crop&w=750&q=80");}
+.cadre{
+    background-color:  black;
+    color: white;
+    float: left;
+    width: 33.2%;
+    padding: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    
+}
+#navbar{
+    background-color:black;
+}
+
+.cadre1{
+    background-color:  black;
+     float: left;
+    width: 33.33%;
+    padding: 5px;
+    color: white;
+}
+.cadre2,.cadre5,.cadre3,.cadre4{
+    background-color: black ;
+    color: white;
+     float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+#logo{
+    color: white;
+    bottom: 500px;
+}
+#menu{
+color: white;
+}
+#ab{
+    color: white;
+}
+.insta{
+    text-align: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container {
+  padding-top: 60px;
+}
+
+#myDIV{
+    display: none;
+    top: 150px;
+    width: 300px;
+    z-index: 2;
+    background-color:white ;
+    transition: all .35s;
+   position: absolute;
+    left:50px;
+    padding: 20px;
+    margin-top: -90px;
+    margin-left: -50px;
+
+}
+
+/* Create three equal columns that sits next to each other */
+.cadre {
+    flex: 33.33%;
+    padding: 5px;
+}
+.im{
+    /*text-align: center;*/
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 50%;
+}
+h5{
+    text-align: center;
+}
+.col-md-4{
+    width: 300px;
+    height: 300px;
+}
+
+/*.shown {
+    left: 0 !important;
+}*/
+/*.row1{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}*/
+/*header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+/*nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed 
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed 
+}
+
+/* Clear floats after the columns 
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+/* Style the footer 
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}*/
+/*.benim{  
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;}*/
+   .bir,.iki{
+        background-color: white;
+        color: black;
+       /* display: inline-block;*/
+margin-left: 5px;
+margin-right: 1px;
+    }
+/*.pomme{
+background-color: grey;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+}*/
+h2{
+    text-align: center;
+}
+   img{
+    border-radius: 10px;
+} 
+.us{
+    background-color: white;
+        color: black;
+        margin-left: 250px;
+        margin-top: 5px;
+        width: 810px;
+}
+
+.bir{
+   margin-left: 250px; 
+}
+.button1,.button2{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.dort{
+    color: black;
+        
+        
+        margin-top: 5px;
+        
+}
+#subject{
+    height:100px;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+.bes{
+    display: inline-block;
+    
+}
+
+.col-md-6{
+    width: 400px;
+    height: 300px;
+}
+#comment{
+    font-size: 30px;
+}
+.cave{
+    margin-top: 100px;
+    background-color:#A52A2A ; 
+    color:white;
+    padding: 50px 10px 50px 10px;
+    float: left;
+    width: 33.2%;
+    padding: 5px;
+    margin-right: 1px;
+}
+#zei{
+    font-size: 35px;
+}
+#subjects{
+    background-color: white;
+    height:350px;
+    margin-left: 250px;
+    margin-right: -250px;
+    margin-top: -90px;
+    display: none;
+    top: 150px;
+    width: 300px;
+    z-index: 2;
+   /* background-color:  #f50057 ;*/
+    transition: all .35s;
+   position: absolute;
+    left:815px;
+    padding-right: 100px;
+    /*padding-top: -90px;
+   /* margin-left: -50px;*/
+}
